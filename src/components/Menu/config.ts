@@ -6,20 +6,20 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
-  {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: 'Exchange',
-        href: 'http://exchange.goosedefi.com/',
-      },
-      {
-        label: 'Liquidity',
-        href: 'http://exchange.goosedefi.com/#/pool',
-      },
-    ],
-  },
+  // {
+  //   label: 'Trade',
+  //   icon: 'TradeIcon',
+  //   items: [
+  //     {
+  //       label: 'Exchange',
+  //       href: 'http://exchange.goosedefi.com/',
+  //     },
+  //     {
+  //       label: 'Liquidity',
+  //       href: 'http://exchange.goosedefi.com/#/pool',
+  //     },
+  //   ],
+  // },
   {
     label: 'Farms',
     icon: 'FarmIcon',
@@ -45,55 +45,55 @@ const config: MenuEntry[] = [
   //   icon: 'NftIcon',
   //   href: '/nft',
   // },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
-    ],
-  },
+  // {
+  //   label: 'Info',
+  //   icon: 'InfoIcon',
+  //   items: [
+  //     {
+  //       label: 'PancakeSwap',
+  //       href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+  //     },
+  //     {
+  //       label: 'CoinGecko',
+  //       href: 'https://www.coingecko.com/en/coins/goose-finance',
+  //     },
+  //     {
+  //       label: 'CoinMarketCap',
+  //       href: 'https://coinmarketcap.com/currencies/goose-finance/',
+  //     },
+  //     {
+  //       label: 'AstroTools',
+  //       href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
   //   href: '/ifo',
   // },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
+  // {
+  //   label: 'More',
+  //   icon: 'MoreIcon',
+  //   items: [
       // {
       //   label: 'Voting',
       //   href: 'https://voting.pancakeswap.finance',
       // },
-      {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
-      },
-      {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
-      },
-      {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
-      },
-    ],
-  },
+      // {
+      //   label: "Github",
+      //   href: "https://github.com/llcool-maks/goose-frontend-farms",
+      // },
+      // {
+      //   label: "Docs",
+      //   href: "https://goosedefi.gitbook.io/goose-finance/",
+      // },
+      // {
+      //   label: "Blog",
+      //   href: "https://goosefinance.medium.com/",
+      // },
+  //   ],
+  // },
 ]
 
 export default config
